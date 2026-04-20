@@ -102,9 +102,9 @@ form button {
   font-size: 16px;
   border-radius: 8px;
 }
-form iput:focus, form textarea:focus{
+form input:focus, form textarea:focus{
     border-color: #007bff;
-
+outline:none;
 }
 form button{
     background-color: #0d4178;
