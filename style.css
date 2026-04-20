@@ -29,11 +29,56 @@ nav {
 nav a {
   text-decoration: none;
   color: white;
-  margin: 0 25px ;
+  margin: 0 25px;
   font-weight: 600;
   letter-spacing: 0.5px;
 }
-nav a:hover{
-color: #ff6347;
-text-decoration:underline;
+nav a:hover {
+  color: #ff6347;
+  text-decoration: underline;
+}
+Section {
+  background-color: #ffffff;
+  border-radius: 8xp;
+  margin: 20px 160px auto;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  padding: 10px 10px;
+}
+section-hover{
+    box-shadow:0 6px (0,0,0,0.15) ;
+}
+table{
+    width: 100%;
+    margin-top: 14px;
+    border-collapse: collapse;
+}
+table th, table td{
+    padding:12px;
+    text-align:left;
+    border: 1px solid #ddd;
+}
+table th{
+    background-color: #f1f1f1;
+    font-weight: 600;
+    color:#333;
+}
+table tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+ul{
+    list-style: none;
+    padding:0;
+}
+ul li{
+    margin: 12px 0;
+    font-size: 18px;
+}
+ul li strong{
+    color: #007bff
+}
+h2{
+    color:#0d0f78
 }
